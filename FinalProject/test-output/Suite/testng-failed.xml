@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="tearDwon"/>
+          <include name="tc_07LogOff"/>
+          <include name="setup"/>
+          <include name="chooseProductAndSort"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.LoginTest2">
+        <methods>
+          <include name="tc_04chackLinkedin"/>
+          <include name="tearDwon"/>
+          <include name="setup"/>
+          <include name="tc_05logout"/>
+        </methods>
+      </class> <!-- tests.LoginTest2 -->
+      <class name="tests.LoginTest4">
+        <methods>
+          <include name="tc_04fillingDetails"/>
+          <include name="tearDwon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginTest4 -->
+      <class name="tests.LoginTest3">
+        <methods>
+          <include name="tc_05logout"/>
+          <include name="tearDwon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginTest3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
